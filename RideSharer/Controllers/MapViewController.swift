@@ -47,7 +47,7 @@ class MapViewController: UIViewController {
             mapView.showsUserLocation = true
             centerMapOnUserLocation()
         @unknown default:
-            fatalError()
+            break
         }
     }
     
