@@ -75,7 +75,7 @@ extension MapViewController {
     private func showLocationNeededAlert() {
         
         let title = NSLocalizedString("Location Needed", comment: "Title for user location needed alert")
-        let message = NSLocalizedString("Your location services are not enabled for this app. Please go to your settings to allow this app to use your location.", comment: "Message for user location needed alert")
+        let message = NSLocalizedString("You have not given permission to get your location. Please change this in system settings.", comment: "Message for user location needed alert")
         let locationNeededAlert = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
         
         let actionTitle = NSLocalizedString("OK", comment: "OK action title")
